@@ -1,0 +1,44 @@
+.navigation-container {
+  z-index: 10;
+  background: rgb(45, 45, 45);
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(120, 120, 120);
+  font-size: 18px;
+  position: fixed;
+  height: 40px;
+  width: 80vw;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+
+.center-vertically {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.github-text {
+  position: relative;
+  left: 0px;
+  bottom: 0px;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profiles:hover{
+  opacity: 0.9;
+}
+.name{
+  position: relative;
+  right: 2vw;
+}

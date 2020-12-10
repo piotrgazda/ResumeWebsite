@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+
+:root {
+  --backcol: rgb(30, 30, 30);
+  --elementsbackgroundcol: rgb(45, 45, 45);
+  --elementshovercol: rgb(60, 60, 60);
+}
+
+body {
+  background-color: rgb(30, 30, 30);
+  font-family: "Carlito";
+  color: rgb(220, 220, 220);
+  text-align: center;
+  margin-bottom: 50px;
+}
+a {
+  font-weight: bold;
+  color: ghostwhite;
+  font-style: normal;
+  text-decoration: none;
+}
+a:hover{
+    color: lightseagreen;
+    
+
+}

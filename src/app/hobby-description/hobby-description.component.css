@@ -1,0 +1,46 @@
+.two-sidebars {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.text-container {
+  background: rgb(45, 45, 45);
+  border-radius: 5px;
+  width: 40vw;
+  height: 25vh;
+  min-height: 290px;
+  min-width: 550px;
+  text-align: justify;
+}
+.description-header {
+  padding-left: 3vw;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(75, 75, 75);
+}
+.description-text {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: large;
+}
+.back-button {
+  position: relative;
+  height: 40px;
+  background-color: rgb(80, 80, 80);
+  color: rgb(220, 220, 220);
+  float: right;
+  width: 15vw;
+  min-width: fit-content;
+  margin-top: 15px;
+}
+.second-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image{
+  min-height: 290px;
+  min-width: calc(550px*0.75);
+  height: 25vh;
+  
+}

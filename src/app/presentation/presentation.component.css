@@ -1,0 +1,11 @@
+.presentation-text {
+  font-size: 16px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+  overflow: hidden;
+  height: 60px;
+  line-height: 21px;
+  text-overflow: ellipsis;
+}

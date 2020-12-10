@@ -1,0 +1,16 @@
+<section class="carousel" aria-label="Gallery">
+  <ng-container
+    class="imageContainer"
+    *ngFor="let image of imagesSources; let i = index"
+  >
+    <img
+      *ngIf="i == imageIdx"
+      class="imageStyle"
+      [src]="image"
+      [@slideAnimation]="animationType"
+    />
+    <a class="carousel__prev" (click)="onPrevious()">Go to previous slide</a>
+    <a class="carousel__next" (click)="onNext()">Go to next slide</a>
+  </ng-container>
+</section>
+<div class="caption">{{captionText}}</div>

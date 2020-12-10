@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="text-container">
+    <div>
+      <h1>Style based generative adversarial network</h1>
+      <div class="git-link" [innerHTML]="gitLink"></div>
+    </div>
+    <section
+      [innerHTML]="projectDescription"
+      class="project-description"
+    ></section>
+  </div>
+  <div class="imagesBar">
+    <div class="result-images-stylemix">
+      <app-image-slide-show
+        [imagesSources]="imagesStyleMix"
+        [captionText]="captionStyleMix"
+      ></app-image-slide-show>
+    </div>
+    <div class="result-images-truncation">
+      <app-image-slide-show
+        [imagesSources]="imagesTruncation"
+        [captionText]="captionTruncation"
+      ></app-image-slide-show>
+    </div>
+  </div>
+</div>

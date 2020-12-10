@@ -1,0 +1,16 @@
+<div class="two-sidebars">
+  <div class="text-container">
+    <h1 class="description-header">{{ hobby.name }}</h1>
+    <section class="description-text" [innerHTML]="hobby.description"></section>
+  </div>
+  <div class="second-container">
+    <img
+      class="image"
+      src="assets/hobbys/{{hobby.name}}-description-image.png"
+      alt="Girl in a jacket"
+    />
+    <button class="back-button" (click)="onClick()" mat-flat-button>
+      Go back
+    </button>
+  </div>
+</div>

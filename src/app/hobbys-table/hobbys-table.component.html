@@ -1,0 +1,25 @@
+<h1 class="hobbys-header">My hobbys</h1>
+
+<section class="hobbys-section">
+  <ul
+    class="hobbys-list"
+    [@fadeInOutList]="isListShown ? 'shown' : 'hidden'"
+    (@fadeInOutList.done)="onFinishedFadingListEvent($event)"
+    *ngIf="contentToogle == false; else elseBlock"
+  >
+    <li *ngFor="let hobby of hobbys" (click)="showDetails(hobby)">
+      <app-hobby [hobby]="hobby"></app-hobby>
+    </li>
+  </ul>
+  <ng-template #elseBlock>
+    <div
+      [@fadeInOutDescription]="isListShown ? 'hidden' : 'shown'"
+      (@fadeInOutDescription.done)="onFinishedFadingDescriptionEvent($event)"
+    >
+      <app-hobby-description
+        [hobby]="clickedHobby"
+        (finished)="hideDetails()"
+      ></app-hobby-description>
+    </div>
+  </ng-template>
+</section>

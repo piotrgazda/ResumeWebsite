@@ -1,0 +1,21 @@
+.footer-class {
+  background: rgb(45, 45, 45);
+  z-index: 10;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+}
+:host{
+  margin-bottom: 20px;
+}
+.link {
+    color: ghostwhite;
+}
+.link:hover{
+    
+}

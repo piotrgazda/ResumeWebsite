@@ -1,0 +1,11 @@
+<h1 class="projects-header">My projects</h1>
+
+<section class="projects-section">
+  <ul class="projects-list">
+    <li *ngFor="let project of projects">
+      <a href="/{{ project.name }}"
+        ><app-hobby [hobby]="project"></app-hobby>
+      </a>
+    </li>
+  </ul>
+</section>

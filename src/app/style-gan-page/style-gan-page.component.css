@@ -1,0 +1,30 @@
+.container {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.text-container {
+  width: 40vw;
+  text-align: justify;
+  padding-right: 1vw;
+
+}
+.git-link {
+  margin-bottom: 10px;
+}
+.result-images-stylemix {
+  width: 30vw;
+  height: 30vw;
+  padding-left: 7.5vw;
+}
+.result-images-truncation {
+  width: 45vw;
+  height: 30vw;
+
+}
+.imagesBar {
+  position: relative;
+  left: 2vw;
+}
